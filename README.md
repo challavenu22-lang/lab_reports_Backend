@@ -3,6 +3,7 @@
 **Name:** ch.venu  
 **Registration Number:** 252U1R9023  
 **Section:** CSE-GEN-AI-2A-304  
+**Live Link:** [https://lab-reports-backend-z6g9.onrender.com/](https://lab-reports-backend-z6g9.onrender.com/)
 
 ---
 
@@ -12,7 +13,7 @@ This repository contains the backend development lab experiments and reports. Ea
 
 ## Labs
 
-- [📁 **Lab 1: Node.js and Express server**](./Lab%201)
+- [📁 **Lab 1: Node.js and Express server**](./Lab%201) — [Live Demo](https://lab-reports-backend-z6g9.onrender.com/)
   - Basic HTTP server with Node.js built-in `http` module (`server-http.js`)
   - Express.js application with routing (`/`, `/about`, `/time`) and custom 404 handler (`server.js`)
   - Screenshots of verified browser outputs

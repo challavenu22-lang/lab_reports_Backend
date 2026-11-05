@@ -2,7 +2,7 @@
 
 **Name:** ch.venu · **Registration number:** 252U1R9023 · **Section:** CSE-GEN-AI-2A-304
 
-**Live link:** Not deployed (running locally on http://localhost:3000, browser screenshots added below)
+**Live link:** [https://lab-reports-backend-z6g9.onrender.com/](https://lab-reports-backend-z6g9.onrender.com/)
 
 ## How to run
 
@@ -51,10 +51,10 @@ Environment variables: none required. `PORT` is optional (defaults to 3000).
 
 | URL | Status code returned |
 | --- | --- |
-| `http://localhost:3000/` | 200 |
-| `http://localhost:3000/about` | 200 |
-| `http://localhost:3000/time` | 200 |
-| `http://localhost:3000/anything-else` | 404 |
+| `https://lab-reports-backend-z6g9.onrender.com/` | 200 |
+| `https://lab-reports-backend-z6g9.onrender.com/about` | 200 |
+| `https://lab-reports-backend-z6g9.onrender.com/time` | 200 |
+| `https://lab-reports-backend-z6g9.onrender.com/anything-else` | 404 |
 
 ## Screenshots
 
