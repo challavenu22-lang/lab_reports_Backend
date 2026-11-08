@@ -8,9 +8,15 @@
 
 ## Live Link
 
-**Deployment URL:** YOUR_LIVE_URL_HERE
+**Deployment URL:** [https://lab-reports-3-bfs1.onrender.com/books/](https://lab-reports-3-bfs1.onrender.com/books/)
 
-*(If the project cannot be deployed, replace this line with the reason and rely on the Postman screenshots below.)*
+### Live Test Links
+
+- **Get All Books:** [https://lab-reports-3-bfs1.onrender.com/books/](https://lab-reports-3-bfs1.onrender.com/books/)
+- **Filter by Price:** [https://lab-reports-3-bfs1.onrender.com/books/?min_price=250&max_price=500](https://lab-reports-3-bfs1.onrender.com/books/?min_price=250&max_price=500)
+- **Search:** [https://lab-reports-3-bfs1.onrender.com/books/?search_q=Clean](https://lab-reports-3-bfs1.onrender.com/books/?search_q=Clean)
+- **Sort & Pagination:** [https://lab-reports-3-bfs1.onrender.com/books/?order_by=price&order=DESC&limit=5&offset=0](https://lab-reports-3-bfs1.onrender.com/books/?order_by=price&order=DESC&limit=5&offset=0)
+- **Get Single Book:** [https://lab-reports-3-bfs1.onrender.com/books/1/](https://lab-reports-3-bfs1.onrender.com/books/1/)
 
 ## Objective
 
