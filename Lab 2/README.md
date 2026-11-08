@@ -8,9 +8,7 @@
 
 ## Live Link
 
-**Deployment URL:** YOUR_LIVE_URL_HERE
-
-*(If the project cannot be deployed, replace this line with the reason and rely on the Postman screenshots below.)*
+**Deployment URL:** [https://lab-reports-1-eiis.onrender.com/books/](https://lab-reports-1-eiis.onrender.com/books/)
 
 ## Objective
 
@@ -141,5 +139,5 @@ POST creates a new resource (the server picks the id). PUT replaces or updates a
 ## Notes: Problems Faced and Solutions
 
 - The SQLite command-line tool was not installed on my computer, so I viewed `books.db` with DB Browser for SQLite instead.
-- Write your own notes here. For example, describe an error you hit while testing in Postman or deploying, and how you fixed it.
+- **Render Deployment Error (`GLIBC_2.38` mismatch):** On initial deployment to Render, the service crashed with `version 'GLIBC_2.38' not found` because `sqlite3@6.0.1` downloaded prebuilt binaries compiled against GLIBC 2.38, whereas Render runs Ubuntu 22.04 LTS (GLIBC 2.35). Resolved by pinning `sqlite3` to `5.1.7` in `package.json` and updating `package-lock.json`.
 - The free hosting plan used for deployment may reset the file system on restart, so changes made through POST, PUT and DELETE on the live link can disappear after a redeploy. The local `books.db` file keeps changes.

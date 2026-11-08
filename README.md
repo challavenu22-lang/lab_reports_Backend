@@ -17,7 +17,7 @@ This repository contains the backend development lab experiments and reports. Ea
   - Basic HTTP server with Node.js built-in `http` module (`server-http.js`)
   - Express.js application with routing (`/`, `/about`, `/time`) and custom 404 handler (`server.js`)
   - Screenshots of verified browser outputs
-- [📁 **Lab 2: SQLite database and CRUD routes**](./Lab%202)
+- [📁 **Lab 2: SQLite database and CRUD routes**](./Lab%202) — [Live Demo](https://lab-reports-1-eiis.onrender.com/books/)
   - Connect an Express server to a SQLite database (`books.db`, `seed.sql`)
   - Express.js application with CRUD routes (`/books/`, `/books/:bookId/`) in `app.js`
   - Verified with Postman screenshots
