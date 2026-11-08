@@ -21,3 +21,8 @@ This repository contains the backend development lab experiments and reports. Ea
   - Connect an Express server to a SQLite database (`books.db`, `seed.sql`)
   - Express.js application with CRUD routes (`/books/`, `/books/:bookId/`) in `app.js`
   - Verified with Postman screenshots
+- [📁 **Lab 3: REST API, query parameters, validation, debugging**](./Lab%203)
+  - REST API with search, sorting, pagination, price range filters, input validation, and proper HTTP status codes
+  - Express.js application with SQLite database integration (`books.db`, `seed.sql`)
+  - Four debugging exercises documented (`debugging/DEBUGGING.md`)
+  - Verified with Postman test collection and screenshots
